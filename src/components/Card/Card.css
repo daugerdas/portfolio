@@ -1,0 +1,11 @@
+.card {
+    background-color: rgb(56, 56, 56);
+    color: #cbcbcb;
+    border-radius: 1rem;
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}

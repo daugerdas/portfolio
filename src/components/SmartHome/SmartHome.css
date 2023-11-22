@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    transform: rotate(180deg);
+    margin-top: 1.7rem;
+  }
+  
+  .light-bulb {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .light-bulb-top {
+    background-color: #ddd;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+  }
+  
+  .light-bulb-middle {
+    border: 1px solid #000;
+    width: 0.5rem;
+    position: absolute;
+    top: 3rem;
+    left: 0.25rem;
+    border-top: 3rem solid #ddd;
+    border-right: 1.5rem solid transparent;
+    border-left: 1.5rem solid transparent;
+    border-bottom: 2rem solid transparent;
+  }
+  
+.smart-home-text {
+    font-size: 0.6rem;
+    margin: 0;
+}
+
+.smart-home-buttons {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.2rem 0;
+}
+
+.smart-home-button {
+    font-size: 0.5rem;
+}
+
+.light-on .light-bulb-top{
+    background-color: rgb(255, 184, 5);
+    -webkit-box-shadow: -1px 17px 21px 8px rgba(255,189,48,0.78); 
+box-shadow: -1px 17px 21px 8px rgba(255,189,48,0.78);
+}
+
+.light-on .light-bulb-middle {
+    border-top-color: rgb(255, 184, 5);
+}

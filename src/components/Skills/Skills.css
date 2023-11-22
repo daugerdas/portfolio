@@ -1,0 +1,19 @@
+.skill {
+    background-color: rgb(179, 179, 179);
+    border-radius: 1rem;
+    font-size: 0.55rem;
+    padding: 0.05rem 0.5rem;
+    color: #000;
+}
+
+.skills-list {
+    display: flex;
+    gap: 0.3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-title {
+    margin: 0.5rem;
+    font-size: 0.7rem;
+}
