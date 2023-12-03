@@ -29,7 +29,7 @@ function App() {
       <Card>
         <Project
           title="remoteworkspots.com"
-          githubLink="https://github.com/daugerdas/remoteworkspots.com"
+          githubLink="https://github.com/daugerdas/remoteworkspots"
         />
       </Card>
       <Card>
